@@ -1,0 +1,17 @@
+Data Management
+---------------
+
+To show how a game panned out from the move list alone, call the game simulator
+using "node game_simulator.js <moves file>".
+
+E.g. node game_simulator.js playing_data/sample_moves.txt
+
+
+
+To process training data from move files, call the playing data processor using
+"node process_playing_data.js <moves directory>".
+
+This will create a folder in this directory called "training_data" with the
+files numbered. This data can the be dealt with via the Matlab scripts.
+
+E.g. node process_playing_data.js playing_data/

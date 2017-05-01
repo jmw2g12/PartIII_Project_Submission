@@ -1,0 +1,20 @@
+Investigating New Strategies to Effectively Play the Board Game Blokus
+----------------------------------------------------------------------
+
+This directory contains the source code used in my Part III project as detailed
+in my submitted report.
+
+The Java Application can be used to play the game using either the command line
+interface or various computer opponents to control the moves. This will also
+create playing data to test the learning process. Compile the application and
+run it a few times, move the playing data folder to the "Data Processing"
+directory. From here run the script that processes the playing data to create
+training data. Then open Matlab and follow the instructions to make a network
+and its Java class. This Java class can then be used back in the Java
+Application or Web Application.
+
+A web server can be started to play versus the computer or other human
+opponents. The files in "Java Application" and "Web Application/src" are
+identical, aside from the Blokus and WebPlayer classes.
+
+Each folder will have a README file to further explain how to use its contents.
